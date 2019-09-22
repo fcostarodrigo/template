@@ -1,0 +1,43 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest unit int --coverage",
+    "pretest": "eslint src",
+    "unit-test": "jest unit --watch",
+    "format": "pretty-quick"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcostarodrigo/template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fcostarodrigo/template/issues"
+  },
+  "homepage": "https://github.com/fcostarodrigo/template#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && npm test"
+    }
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
+    "prettier": "^1.13.0",
+    "pretty-quick": "^1.11.1"
+  }
+}

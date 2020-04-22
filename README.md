@@ -22,27 +22,13 @@ main();
 
 ## Documentation
 
-```typescript
-function template(arg?: boolean): Promise<void>;
+```javascript
+template(arg);
 ```
 
 `arg`: Description of the argument.
 
 Description of the return and any side-effects.
-
-## Development
-
-Full tests with coverage
-
-```bash
-npm test
-```
-
-Unit tests and watch for changes
-
-```bash
-npm run unit-test
-```
 
 ## License
 

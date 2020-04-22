@@ -1,1 +1,5 @@
-module.exports = () => console.log("Hello world");
+function hello(log = console.log) {
+  log("Hello world!");
+}
+
+module.exports = hello;

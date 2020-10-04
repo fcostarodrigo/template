@@ -2,7 +2,7 @@
 
 Brief description of the package.
 
-## Installation
+## Setup
 
 ```bash
 npm install template
@@ -10,7 +10,7 @@ npm install template
 
 ## Usage
 
-```javascript
+```js
 const template = require("template");
 
 async function main() {
@@ -22,7 +22,7 @@ main();
 
 ## Documentation
 
-```javascript
+```js
 template(arg);
 ```
 

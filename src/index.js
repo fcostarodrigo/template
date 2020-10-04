@@ -1,5 +1,9 @@
-function hello(log = console.log) {
-  log("Hello world!");
+/**
+ * @param {number} a
+ * @param {number} b
+ */
+function add(a, b) {
+  return a + b;
 }
 
-module.exports = hello;
+module.exports = add;

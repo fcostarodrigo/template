@@ -1,6 +1,6 @@
 {
   "name": "template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Template",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
     "url": "https://github.com/fcostarodrigo/template/issues"
   },
   "homepage": "https://github.com/fcostarodrigo/template#readme",
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^26.0.14",
     "@types/node": "^14.11.2",
@@ -78,5 +79,11 @@
   },
   "prettier": {
     "trailingComma": "all"
+  },
+  "jest": {
+    "watchPathIgnorePatterns": [
+      "/node_modules/",
+      "/coverage/"
+    ]
   }
 }

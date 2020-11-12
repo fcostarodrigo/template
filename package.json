@@ -2,7 +2,7 @@
   "name": "template",
   "version": "1.0.2",
   "description": "Template",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "jest unit int --coverage",
     "pretest": "eslint src",
@@ -22,22 +22,21 @@
     "url": "https://github.com/fcostarodrigo/template/issues"
   },
   "homepage": "https://github.com/fcostarodrigo/template#readme",
-  "dependencies": {},
   "devDependencies": {
-    "@types/jest": "^26.0.14",
-    "@types/node": "^14.11.2",
-    "eslint": "^7.10.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-prettier": "^6.12.0",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.7",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.0.2",
+    "eslint-plugin-jest": "^24.1.3",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-tsc": "^2.0.0",
     "husky": "^4.3.0",
-    "jest": "^26.4.2",
-    "lint-staged": "^10.4.0",
+    "jest": "^26.6.3",
+    "lint-staged": "^10.5.1",
     "prettier": "^2.1.2",
-    "typescript": "^4.0.3"
+    "typescript": "^4.0.5"
   },
   "eslintConfig": {
     "extends": [
@@ -79,11 +78,5 @@
   },
   "prettier": {
     "trailingComma": "all"
-  },
-  "jest": {
-    "watchPathIgnorePatterns": [
-      "/node_modules/",
-      "/coverage/"
-    ]
   }
 }

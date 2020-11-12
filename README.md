@@ -30,6 +30,10 @@ template(arg);
 
 Description of the return and any side-effects.
 
+## Changelog
+
+[Changelog](CHANGELOG.MD)
+
 ## License
 
 [MIT License](http://www.opensource.org/licenses/mit-license.php)
